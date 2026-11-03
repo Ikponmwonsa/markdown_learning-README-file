@@ -48,7 +48,7 @@ terraform-guide.md
 
 ## 2.  **Markdown syntax: Every important command and its use case**
 
-This is your Markdown reference guide. Practise each example inside a .md file in VS Co
+This is your Markdown reference guide. Practise each example inside a .md file in VS Code
 
 
 **A. Heading**
@@ -224,6 +224,7 @@ my-devops-blog/
 This is particularly important for DevOps technical blogs.
 
 Use triple backticks to display code.
+
 **Linux example:**
 
 ```bash
@@ -295,6 +296,7 @@ Use horizontal lines to separate sections.
 ```
 
 **P. Task references and technical notes**
+
 GitHub supports alerts for documentation.
 
 ```markdown
