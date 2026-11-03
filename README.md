@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Complete Step-by-Step Guide to Markdown
 
 Since you are building your career in Cloud Engineering, DevOps and AI Automation, learning Markdown is one of the most important skills you can develop.
@@ -7,7 +9,8 @@ You should be able to document everything you learn, turn your projects into tec
 This guide will take you from understanding Markdown syntax to building a professional technical blogging workflow.
 
 ## 1. **Understanding Markdown**
-  **What is Markdown**
+
+**What is Markdown**
 
 Markdown is a lightweight markup language used to format plain text into readable documents.
 
@@ -22,7 +25,7 @@ It allows you to write:
 - API documentation.
 - Notes and learning journals.
 - LinkedIn and Medium technical articles.
-Markdown files use the .md extension.
+  Markdown files use the .md extension.
 
 For example:
 
@@ -37,31 +40,35 @@ terraform-guide.md
 
 **Where Markdown is used in the real world**
 
-|Platform/tool	|Markdown use case|
-|:---|---:|
-|VS Code	|Writing and editing documentation
-|GitHub	|README, project documentation, issues
-|GitLab	|Repository documentation
-|Medium	|Writing and preparing technical articles
-|LinkedIn|	Preparing formatted article content
-|MkDocs	|Building technical documentation websites
+| Platform/tool |                         Markdown use case |
+| :------------ | ----------------------------------------: |
+| VS Code       |         Writing and editing documentation |
+| GitHub        |     README, project documentation, issues |
+| GitLab        |                  Repository documentation |
+| Medium        |  Writing and preparing technical articles |
+| LinkedIn      |       Preparing formatted article content |
+| MkDocs        | Building technical documentation websites |
 
-## 2.  **Markdown syntax: Every important command and its use case**
+## 2. **Markdown syntax: Every important command and its use case**
 
 This is your Markdown reference guide. Practise each example inside a .md file in VS Code
 
-
 **A. Heading**
+
 Headings organise your article into sections.
 Syntax:
 
 ```markdown
-
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 ```
 
@@ -84,10 +91,10 @@ Syntax:
 Use one main H1 heading for the article title and H2/H3 headings to organise the content.
 
 **B. Paragraphs and line breaks**
+
 Use paragraphs to explain concepts.
 
 ```markdown
-
 DevOps is a combination of development and operations.
 It improves collaboration, automation and software delivery.
 ```
@@ -95,6 +102,7 @@ It improves collaboration, automation and software delivery.
 For a line break within the same paragraph, end the line with two spaces or use a blank line to start a new paragraph.
 
 **C. Bold text**
+
 Use bold to emphasise important words.
 
 ```markdown
@@ -106,19 +114,21 @@ Example:
 **Always automate repetitive task where practical**
 
 **D. Italics**
+
 Use italics to highlight terms or introduce concepts.
 
 ```markdown
-*Infrastructure as Code*
+_Infrastructure as Code_
 ```
 
 **E. Bold and italics together**
 
-``` markdown
-***Continuous Integration and Continuous Delivery***
+```markdown
+**_Continuous Integration and Continuous Delivery_**
 ```
 
 **F. Strikethrough**
+
 Use this when documenting corrections or completed changes.
 
 ```markdown
@@ -176,9 +186,10 @@ Use nested lists when explaining subcategories.
   - Kubernetes
 - Infrastructure as Code
   - Terraform
-  ```
+```
 
 **I. Links and hyperlinks**
+
 Use links to reference documentation, tools and tutorials.
 
 ```markdown
@@ -196,6 +207,7 @@ to understand containerisation.
 ```
 
 **J. Images and screenshots**
+
 Images help readers understand your technical work.
 
 ```markdown
@@ -215,12 +227,13 @@ For example:
 ```markdown
 my-devops-blog/
 ├── images/
-│   ├── docker-architecture.png
-│   └── jenkins-pipeline.png
+│ ├── docker-architecture.png
+│ └── jenkins-pipeline.png
 └── README.md
 ```
 
 **K. Code blocks**
+
 This is particularly important for DevOps technical blogs.
 
 Use triple backticks to display code.
@@ -259,6 +272,7 @@ print("Hello DevOps Engineer")
 The language after the opening backticks enables syntax highlighting on supported platforms.
 
 **L. Inline code**
+
 Use single backticks when mentioning a command or code inside a sentence.
 
 ```bash
@@ -266,17 +280,18 @@ Run `git status` to check your working directory.
 ```
 
 **M. Tables**
+
 Tables are excellent for comparing tools, configurations and results.
 
 ```markdown
-| Tool | Purpose |
-|---|---|
-| Git | Version control |
-| GitHub | Code hosting |
-| Jenkins | CI/CD automation |
-| Docker | Containerisation |
+| Tool       | Purpose                 |
+| ---------- | ----------------------- |
+| Git        | Version control         |
+| GitHub     | Code hosting            |
+| Jenkins    | CI/CD automation        |
+| Docker     | Containerisation        |
 | Kubernetes | Container orchestration |
-| Terraform | Infrastructure as Code |
+| Terraform  | Infrastructure as Code  |
 ```
 
 **N. Blockquotes**
@@ -289,6 +304,7 @@ Use blockquotes to highlight important explanations or warnings.
 ```
 
 **O. Horizontal lines**
+
 Use horizontal lines to separate sections.
 
 ```markdown
@@ -314,9 +330,10 @@ GitHub supports alerts for documentation.
 ```
 
 **Q. HTML inside Markdown**
+
 Some Markdown platforms support HTML elements.
 
-```HTML
+````HTML
 <details>
 <summary>Click to see the installation commands</summary>
 
@@ -334,7 +351,7 @@ Use a backslash when you need to display a character literally rather than have 
 
 ```markdown
 \*This is not italic text\*
-```
+````
 
 **S. Footnotes**
 
