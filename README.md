@@ -1,5 +1,5 @@
-**Complete Step-by-Step Guide to Markdown**
-***
+# Complete Step-by-Step Guide to Markdown**
+
 Since you are building your career in Cloud Engineering, DevOps and AI Automation, learning Markdown is one of the most important skills you can develop.
 
 You should be able to document everything you learn, turn your projects into technical articles, publish them on GitHub, and use Medium and LinkedIn to demonstrate your technical knowledge to recruiters and potential employers.
